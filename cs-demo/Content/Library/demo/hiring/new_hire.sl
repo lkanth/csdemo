@@ -9,8 +9,6 @@
 #!
 #! @output output_1: Generated description.
 #!
-#! @result SUCCESS: Flow completed successfully.
-#! @result FAILURE: Failure occurred during execution.
 #!!#
 ########################################################################################################################
 
