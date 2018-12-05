@@ -2,8 +2,7 @@
 #!!
 #! @description: Generated Python operation description.
 #!
-#! @input text: Generated description.
-#!
+#! @input text: Generated description
 #!!#
 ########################################################################################################################
 
