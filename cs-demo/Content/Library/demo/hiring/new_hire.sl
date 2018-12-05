@@ -18,11 +18,11 @@ imports:
 flow:
   name: new_hire
   inputs:
-    - first_name
+    - first_name: John
     - middle_name:
         required: false
-    - last_name
-    - attempt
+    - last_name: Doe
+    - attempt: '1'
   workflow:
     - print_start:
         do:
