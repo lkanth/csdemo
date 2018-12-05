@@ -27,7 +27,7 @@ flow:
     - print_start:
         do:
           base.print:
-            - text: Starting new hire process Intellij
+            - text: Starting new hire process Intellij1
         navigate:
           - SUCCESS: create_email_address
     - create_email_address:
