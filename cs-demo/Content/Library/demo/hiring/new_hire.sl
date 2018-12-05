@@ -7,7 +7,8 @@
 #! @input last_name: Generated description.
 #! @input attempt: Generated description.
 #!
-#! @output output_1: Generated description.
+#! @result SUCCESS: Operation completed successfully.
+#! @result FAILURE: Failure occurred during execution.
 #!
 #!!#
 ########################################################################################################################
@@ -62,3 +63,7 @@ flow:
             do:
               base.print:
                 - text: "${'Failed to create address for: ' + first_name + ' ' + last_name}"
+
+  results:
+    - FAILURE
+    - SUCCESS
