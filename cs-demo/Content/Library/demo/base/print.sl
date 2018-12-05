@@ -3,6 +3,8 @@
 #! @description: Generated Python operation description.
 #!
 #! @input text: Generated description
+#!
+#! @result SUCCESS: Operation completed successfully.
 #!!#
 ########################################################################################################################
 
@@ -17,3 +19,6 @@ operation:
   python_action:
     script: |
       print text
+
+  results:
+    - SUCCESS
