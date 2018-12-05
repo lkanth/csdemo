@@ -58,11 +58,12 @@ flow:
         navigate:
           - SUCCESS: SUCCESS
 
-    - on_failure:
-        - print_fail:
-            do:
-              base.print:
-                - text: "${'Failed to create address for: ' + first_name + ' ' + last_name}"
+    - print_fail:
+        do:
+           base.print:
+             - text: "${'Failed to create address for: ' + first_name + ' ' + last_name}"
+        navigate:
+          - FAILURE: FAILURE
 
   results:
     - FAILURE
