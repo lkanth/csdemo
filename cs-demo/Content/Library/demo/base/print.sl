@@ -16,4 +16,5 @@ operation:
     - text
 
   python_action:
-    script: print text
+    script: |
+      print text
